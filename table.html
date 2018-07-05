@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/my_script.js"></script>
+	</script>
+	<style>
+		
+		
+		td,
+		th {
+			width: 5rem;
+			height: 2rem;
+			border: 1px solid #ccc;
+			text-align: center;
+		}
+
+		th {
+			background: #0997D3;
+			border-color: white;
+		}
+
+		body {
+			padding: 1rem;
+			font-family: Roboto;
+		}
+
+		/*class to be added to jquery function to change row colors*/
+
+		.selection {
+			background-color: #E84610;
+		}
+		
+		.orange {
+			background-color: orange;
+		}
+		
+		.pink {
+			background-color: pink;
+		}
+	</style>
+
+
+</head>
+
+<body>
+	<!--create a table-->
+	<table>
+		<tr>
+			<th></th>
+			<th>Country</th>
+			<th>Price</th>
+			<th>Nutrition</th>
+			<th>Category</th>
+		</tr>
+		<tr>
+			<th>Spinach</th>
+			<td class="orange">America</td>
+			<td class="orange">28</td>
+			<td class="orange">90</td>
+			<td class="orange">Veg</td>
+		</tr>
+		<tr>
+			<th>Carrots</th>
+			<td class="pink">France</td>
+			<td class="pink">56</td>
+			<td class="pink">75</td>
+			<td class="pink">Veg</td>
+		</tr>
+		<tr>
+			<th>Broccoli</th>
+			<td class="orange">Bulgaria</td>
+			<td class="orange">12</td>
+			<td class="orange">70</td>
+			<td class="orange">Veg</td>
+		</tr>
+		<tr>
+			<th>Orange</th>
+			<td class="pink">Morocco</td>
+			<td class="pink">15</td>
+			<td class="pink">50</td>
+			<td class="pink">Fruit</td>
+		</tr>
+		<tr>
+			<th>Tangerine</th>
+			<td class="orange">Cyprus</td>
+			<td class="orange">12</td>
+			<td class="orange">25</td>
+			<td class="orange">Fruit</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
